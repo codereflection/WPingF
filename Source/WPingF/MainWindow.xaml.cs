@@ -40,6 +40,7 @@ namespace WPingF
 
         }
 
+        // JumpList support is commented out because I haven't come up with a good use for it yet.
         //private void ConfigJumpLists()
         //{
         //    JumpList jumpList = new JumpList();
