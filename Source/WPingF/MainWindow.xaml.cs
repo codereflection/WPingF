@@ -86,6 +86,7 @@ namespace WPingF
                 if (_pingHosts.Count(x => x.HostName == HostName.Text) == 0)
                 {
                     _pingHosts.Add(new PingHost() { HostName = HostName.Text });
+                    HostName.SelectedItem = _pingHosts.Last();
                 }
 
                 Start.Content = "Stop";
